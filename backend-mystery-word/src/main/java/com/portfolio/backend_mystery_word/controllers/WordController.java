@@ -30,6 +30,11 @@ public class WordController {
         // Get all the words in the DB
         List<Word> allWords = wordRepository.findAll();
 
+        // Security if the list is empty
+        if (allWords.isEmpty()){
+            return null;
+        }
+
         // Random generator
         Random randomGenerator = new Random();
 
