@@ -30,5 +30,16 @@ public class WordController {
         // Get all the words in the DB
         List<Word> allWords = wordRepository.findAll();
 
+        // Random generator
+        Random randomGenerator = new Random();
+
+        // Calculate random
+        Integer randomIndex = randomGenerator.nextInt(allWords.size());
+
+        // Get a random word
+        Word randomWord = allWords.get(randomIndex);
+
+        return randomWord;
+
     }
 }
