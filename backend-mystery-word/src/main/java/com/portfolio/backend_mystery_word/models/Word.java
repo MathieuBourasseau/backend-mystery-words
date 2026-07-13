@@ -1,5 +1,6 @@
 package com.portfolio.backend_mystery_word.models;
 
+// Allow to use ORM JPA to make SQL queries to DB
 import jakarta.persistence.*;
 
 // Entity specifies that the class is for a table in a db
