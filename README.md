@@ -33,7 +33,7 @@ spring.datasource.username=${DB_USERNAME}
 spring.datasource.password=${DB_PASSWORD}
 ```
 
-Avant de lancer le projet en local, exporte ces variables (ou utilise un fichier `.env` avec ton IDE) :
+Avant de lancer le projet en local, exportez ces variables (ou utilisez un fichier `.env` avec votre IDE) :
 
 ```bash
 export DB_USERNAME=postgres
